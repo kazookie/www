@@ -5,5 +5,5 @@ services:
     volumes:
       - .:/usr/share/nginx/html
     ports:
-      - "8080:80"
+      - "8008:80"
     restart: always
